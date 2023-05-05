@@ -1,2 +1,1 @@
-#UCD Saturday Coding Buddy Session
-example
+UCD Saturday Coding Buddy Session
