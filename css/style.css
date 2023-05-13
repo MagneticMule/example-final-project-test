@@ -42,8 +42,6 @@ img, picture {
   --text-size-3xl: 2.44rem;
   --text-size-4xl: 3.05rem;
   --text-size-5xl: 3.81rem;
-
-
 }
 
 /* Type Scale */
@@ -239,6 +237,7 @@ section {
   margin: 0 auto;
   display: grid;
   gap: 3rem;
+  /* grid-template-columns: repeat(3, 1fr); */
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
