@@ -155,16 +155,34 @@ nav.head-navigation ul li a:hover {
   justify-content: center;
 }
 
+@media (max-width: 600px) {
+  .home-hero-container {
+    padding: .4rem;
+  }
+}
+
 .home-hero-container__title {
   text-transform: uppercase;
   font-size: 8rem;
   text-shadow: 2px 2px 64px black;
 }
 
+@media (max-width: 600px) {
+  .home-hero-container__title {
+    font-size: 5rem;
+  }
+}
+
 .home-hero-container__subtitle {
   text-transform: uppercase;
   font-size: 1.2rem;
   margin-bottom: 4rem;
+}
+
+@media (max-width: 600px) {
+  .home-hero-container__subtitle {
+    font-size: 1rem;
+  }
 }
 
 .home-hero-container__book-button {
@@ -174,6 +192,12 @@ nav.head-navigation ul li a:hover {
   border: 1px solid var(--nyanza);
   padding: .6em 1.4em;
   transition: background-color ease-in-out .4s;
+}
+
+@media (max-width: 600px) {
+  .home-hero-container__book-button {
+    font-size: 1.3rem;
+  }
 }
 
 .home-hero-container__book-button:hover {
@@ -233,7 +257,7 @@ section {
 /* News Cards */
 
 .news-cards-container {
-  max-width: 1200px;
+  max-width: 1900px;
   margin: 0 auto;
   display: grid;
   gap: 3rem;
