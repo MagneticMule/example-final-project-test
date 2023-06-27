@@ -1,168 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Echoes - Music of Pink Floyd & Roger Waters</title>
-  <link rel="stylesheet" href="css/style.css">
-</head>
-
-<body>
-  <header class="home-hero">
-    <nav class="head-navigation">
-      <a href="/" class="site-logo">Echoes</>
-        <ul>
-          <li><a href="landing.html">Book Us</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
-    <div class="home-hero-container">
-      <h1 class="home-hero-container__title text_center">Echoes</h1>
-      <p class="home-hero-container__subtitle text_center">The world’s premiere Pink Floyd & Roger Waters tribute band
-      </p>
-      <a class="home-hero-container__book-button" href="#">Book Now</a>
-    </div>
+  <header>
+  <div>
+    <span class="text">&nbsp;George Carp is a developer based in Ireland &nbsp;</span>
+    <span class="hover-text">&nbsp;George Carp is a developer based in Ireland &nbsp;</span></div>
   </header>
-  <main>
-    <section class="dark">
-      <div class="upcoming-gigs-container">
-        <div class="section-header dark">
-          <h2 class="section-header__title">Upcoming Gigs</h2>
-          <p class="section-header__subtitle">When and where we will be playing</p>
+  <body>
+    </header>
+    <main>
+      <section>
+        <h2>About Him</h2>
+        <p>
+          George Carp is a versatile web designer with a passion for creating 
+          stunning and user-friendly websites. With a background in 
+          healthcare and a strong proficiency in HTML, CSS following JavaScript,
+          and Python, he combines technical expertise with a keen eye 
+          for aesthetics and usability. George thrives on understanding 
+          client needs and surpassing expectations by delivering innovative 
+          solutions. He constantly seeks opportunities to learn and grow,
+          embracing new technologies and projects. When he's not immersed
+           in coding and design, George enjoys motorcycling, driving, and 
+          indulging in video games
+        </p>
+      </section>
+      <section>
+        <h2>Contact Him</h2>
+        <p class="large-paragraph">Don't be shy</p>
+        <p>You can reach him on <a href="https://www.instagram.com/krpgeorge/" class="underline-on-hover">Instagram</a> and <a href="https://www.linkedin.com/in/george-carp/?original_referer=" class="underline-on-hover">LinkedIn</a>.</p>
+      </section>
+      <a class="button" href="mailto:geo_bucu@yahoo.com">Contact Me</a>
+      <section>
+        </p>
+      </section>
+      <section class="skills-section">
+        <div>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/80px-CSS3_logo_and_wordmark.svg.png" alt="CSS logo">
+          <h4></h4>
+          <p></p>
         </div>
-        <table class="upcoming-gigs-table">
-          <tr>
-            <th>Date</th>
-            <th>Location</th>
-            <th>Venue</th>
-            <th>Price</th>
-          </tr>
-          <tr>
-            <td>28/04/2024</td>
-            <td>Glasgow</td>
-            <td>The Palladium</td>
-            <td>£40</td>
-          </tr>
-          <tr>
-            <td>28/05/2024</td>
-            <td>Birmingham</td>
-            <td>NEC Center</td>
-            <td>£45</td>
-          </tr>
-          <tr>
-            <td>28/06/2024</td>
-            <td>Dublin</td>
-            <td>Dublin Palladium</td>
-            <td>£60</td>
-          </tr>
-          <tr>
-            <td>28/07/2024</td>
-            <td>Manchester</td>
-            <td>The Hacienda</td>
-            <td>£45</td>
-          </tr>
-          <tr>
-            <td>28/08/2024</td>
-            <td>London</td>
-            <td>London Palladium</td>
-            <td>£80</td>
-          </tr>
-        </table>
-        <p class="note">Note: Dates accurate at time of publication.</p>
-      </div>
-    </section>
-    <section class="dark">
-      <div class="form-container">
-        <form class="subscribe-form" action="#">
-          <label for="date">Date:</label>
-          <select name="date" type="text" required>
-            <option value="1">28/04/2024</option>
-            <option value="2">28/05/2024</option>
-            <option value="3">28/06/2024</option>
-            <option value="4">28/07/2024</option>
-            <option value="5">28/08/2024</option>
-          </select>
-
-          <label for="sname">Name</label>
-          <input name="name" type="text" required minlength="1" placeholder="e.g Raj Iqbal">
-
-          <label for="m">Phone</label>
-          <input name="m" type="text" required minlength="5" placeholder="e.g 07449300554">
-
-          <input type="submit" value="Reserve Ticket" />
-        </form>
-      </div>
-    </section>
-    <section class="light">
-      <div class="section-header">
-        <h2 class="section-header__title">News</h2>
-        <p class="section-header__subtitle">What's been happening in Floyd Land</p>
-      </div>
-      <div class="news-cards-container">
-        <article class="news-card">
-          <img class="news-card__image" src="https://picsum.photos/600/900?random=20" alt="">
-          <h2 class="news-card__title">Live Event</h2>
-          <p class="news-card__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore aliquam nisi
-            adipisci distinctio delectus repellat similique molestias excepturi veritatis ipsam, tenetur est illum
-            quossoluta obcaecati aspernatur dolorum, repudiandae consequuntur!</p>
-          <a href="#" class="news-card__read-more-button">Read More</a>
-        </article>
-        <article class="news-card">
-          <img class="news-card__image" src="https://picsum.photos/600/700?random=1" alt="">
-          <h2 class="news-card__title">Live Event</h2>
-          <p class="news-card__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ad, culpa, maiores
-            impedit enim doloribus perferendis vitae recusandae architecto, ea quidem eveniet quis quas. Molestiae
-            obcaecati quam dolorem optio eum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem ad, culpa,
-            maiores
-            impedit enim doloribus perferendis vitae recusandae architecto, ea quidem eveniet quis quas. Molestiae
-            obcaecati quam dolorem optio eum!</p>
-          <a href="#" class="news-card__read-more-button">Read More</a>
-        </article>
-        <article class="news-card">
-          <img class="news-card__image" src="https://picsum.photos/600/608?random=1" alt="">
-          <h2 class="news-card__title">Live Event</h2>
-          <p class="news-card__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nemo odit ab
-            est, consequatur voluptate rem iusto. Dolore explicabo, veniam quas esse quasi, veritatis in sed porro amet
-            vitae exercitationem.</p>
-          <a href="#" class="news-card__read-more-button">Read More</a>
-        </article>
-        <article class="news-card">
-          <img class="news-card__image" src="https://picsum.photos/600/632?random=1" alt="">
-          <h2 class="news-card__title">Live Event</h2>
-          <p class="news-card__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nemo odit ab
-            est, consequatur voluptate rem iusto. Dolore explicabo, veniam quas esse quasi, veritatis in sed porro amet
-            vitae exercitationem.</p>
-          <a href="#" class="news-card__read-more-button">Read More</a>
-        </article>
-        <article class="news-card">
-          <img class="news-card__image" src="https://picsum.photos/600/600?random=1" alt="">
-          <h2 class="news-card__title">Live Event</h2>
-          <p class="news-card__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nemo odit ab
-            est, consequatur voluptate rem iusto. Dolore explicabo, veniam quas esse quasi, veritatis in sed porro amet
-            vitae exercitationem.</p>
-          <a href="#" class="news-card__read-more-button">Read More</a>
-        </article>
-        <article class="news-card">
-          <img class="news-card__image" src="https://picsum.photos/600/400?random=1" alt="">
-          <h2 class="news-card__title">Live Event</h2>
-          <p class="news-card__info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nemo odit ab
-            est, consequatur voluptate rem iusto. Dolore explicabo, veniam quas esse quasi, veritatis in sed porro amet
-            vitae exercitationem.</p>
-          <a href="#" class="news-card__read-more-button">Read More</a>
-        </article>
-      </div>
-    </section>
-    <section class="dark">
-      <div class="video-container">
-        <iframe class="video-player" src="https://www.youtube-nocookie.com/embed/k9ynZnEBtvw" allowfullscreen>
-        </iframe>
-      </div>
-    </section>
-  </main>
-  <footer class="home-footer">&copy; Thomas Sweeney 2023</footer>
-</body>
-
+        <div>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/110px-HTML5_logo_and_wordmark.svg.png" alt="HTML logo">
+          <h4></h4>
+          <p></p>
+        </div>
+        <div class="new-card-container">
+          <img src="https://scontent-dub4-1.xx.fbcdn.net/v/t1.18169-9/536035_394769690568708_1760679743_n.jpg?_nc_cat=103&cb_f2e=control&cb=99be929b-59f725be&ccb=1-7&_nc_sid=174925&_nc_ohc=nLed9dY_dREAX-6s4QV&_nc_ht=scontent-dub4-1.xx&oh=00_AfAwVR6ui1MV5jvyDPCUc2gFdU-OWtMQWqg8Fo6Vay9siw&oe=64BFE4A6" alt="">
+          <h2>George Carp</h2>
+          <p>Full Stack Developer</p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; George Carp 2023</p>
+    </footer>
+  </body>
+  
+  </body>
 </html>
