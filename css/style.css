@@ -170,7 +170,7 @@ nav.head-navigation ul li a:hover {
 
 @media (max-width: 600px) {
   .home-hero-container__title {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 }
 
@@ -188,7 +188,7 @@ nav.head-navigation ul li a:hover {
 
 .home-hero-container__book-button {
   text-transform: uppercase;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   color: var(--nyanza);
   border: 1px solid var(--nyanza);
   padding: .6em 1.4em;
@@ -197,7 +197,7 @@ nav.head-navigation ul li a:hover {
 
 @media (max-width: 600px) {
   .home-hero-container__book-button {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
   }
 }
 
