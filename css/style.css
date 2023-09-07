@@ -164,6 +164,7 @@ nav.head-navigation ul li a:hover {
 
 .home-hero-container__title {
   text-transform: uppercase;
+  line-height: 1;
   font-size: 6rem;
   text-shadow: 2px 2px 64px black;
 }
@@ -197,7 +198,7 @@ nav.head-navigation ul li a:hover {
 
 @media (max-width: 600px) {
   .home-hero-container__book-button {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 }
 
@@ -385,6 +386,12 @@ table.upcoming-gigs-table tr:nth-of-type(odd) {
   border: 1rem solid black;
 }
 
+@media (max-width: 900px) {
+  .form-container {
+    display: none;
+  }
+}
+
 .subscribe-form {
   margin: 0 auto;
   display: flex;
@@ -429,7 +436,7 @@ table.upcoming-gigs-table tr:nth-of-type(odd) {
 @keyframes slideInBelow {
   0% {
     opacity: 0;
-    transform: translateY(5%);
+    transform: translateY(3%);
   }
 
   100% {
