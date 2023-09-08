@@ -110,15 +110,17 @@ nav.head-navigation {
   top: 0;
   position: sticky;
   background-color: rgba(100, 25, 25, 0.6);
-  display: flex;
-  align-items: center;
+  /* display: flex; */
+  /* align-items: center; */
   padding: 2rem 4rem;
+  text-align: center;
 }
 
-nav.head-navigation .site-logo {
+nav.head-navigation>.site-logo {
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 1.4rem;
   text-transform: uppercase;
+
 }
 
 nav.head-navigation ul {
@@ -148,7 +150,7 @@ nav.head-navigation ul li a:hover {
 
 .home-hero-container {
   animation: 2s ease-out 0s 1 slideInBelow;
-  min-height: 60vh;
+  min-height: 60dvh;
   display: flex;
   flex-direction: column;
   align-items: center;
