@@ -94,13 +94,18 @@ body {
 
 /* Header */
 
+/* background-image: linear-gradient(to top,
+  rgba(100, 0, 0, 0.7),
+  rgba(100, 0, 0, 0.6)),
+url("https://picsum.photos/1200/800?random=1");
+*/
 header.home-hero {
   color: white;
   background-color: brown;
   background-image: linear-gradient(to top,
       rgba(100, 0, 0, 0.7),
       rgba(100, 0, 0, 0.6)),
-    url("https://picsum.photos/1200/800?random=1");
+    url("../images/pink-floyd-tribute-band-uk.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
